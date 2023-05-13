@@ -18,6 +18,7 @@ body{
 header h1{
     font-size: 60px;
    margin-bottom: 30px;
+   margin-top:0;
 }
 header h1 .bold-text{
     font-size: 80px;
@@ -25,6 +26,7 @@ header h1 .bold-text{
 h2{
     font-size: 42px;
     margin-bottom: 20px;
+    margin-top: 0;
 }
 h2 .bold-text {
     font-size: 60px;
@@ -33,13 +35,16 @@ h2 .bold-text {
 h3{
     font-size: 36px;
     font-weight: 900;
+    margin-bottom: 0;
 }
 
 .small-text{
     font-size: 15px;
     margin-bottom: 30px;
 }
-
+p{
+    margin-bottom: 0;
+}
 
 /* links */
 article a{
@@ -59,17 +64,40 @@ img{
     width: 300px;
     border-radius: 50%;
    padding: 10px;
+   border: 2px solid #99d930;
 }
 header{
     background-color: #d7d7d7;
     
 }
 .about-me{
-    background-color: #ffeaea;
+    background-color: #fff;
+    border: 2px solid #252525;
 }
 .articles{
     background-color:#eaf9ff ;
 }
 header, .articles,.about-me{
     padding: 100px;
+}
+.dark-background{
+    background-color:#252525 ;
+    color: #fff;
+}
+.my-work{
+    display: inline-block;
+    background-color: #99d930;
+    color: #252525;
+    text-decoration: none;
+    padding: 10px 25px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+.my-work:hover{
+    background-color: #252525;
+    color: #fff;
+}
+.my-border{
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
 }
